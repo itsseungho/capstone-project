@@ -4,6 +4,7 @@ import AddBook from "./pages/AddBook";
 import EditBook from "./pages/EditBook";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
+import SearchBooks from "./components/SearchBooks";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/add" element={<AddBook />} />
         <Route path="/edit/:id" element={<EditBook />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/search" element={<SearchBooks />} />
       </Routes>
     </BrowserRouter>
   );

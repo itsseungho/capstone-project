@@ -42,6 +42,11 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" to="/search">
+                                Search Books
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to="/login">
                                 Login
                             </Link>
@@ -55,4 +60,3 @@ export default function Navbar() {
         </nav>
     );
 }
-

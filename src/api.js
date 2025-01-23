@@ -1,4 +1,4 @@
-const API_URL = "https://e09467f5-527a-4d9c-9c60-83643036f8d6-00-45zpr64p2cyo.sisko.replit.dev:3000/";
+const API_URL = "https://e09467f5-527a-4d9c-9c60-83643036f8d6-00-45zpr64p2cyo.sisko.replit.dev:3000";
 
 export const fetchBooks = async () => {
     const response = await fetch(`${API_URL}/books`);
