@@ -4,7 +4,7 @@ import AddBook from "./pages/AddBook";
 import EditBook from "./pages/EditBook";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
-import SearchBooks from "./components/SearchBooks";
+import SearchBooks from "./pages/SearchBooks";
 
 export default function App() {
   return (
