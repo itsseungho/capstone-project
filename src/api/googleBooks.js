@@ -9,7 +9,7 @@ export const searchBooks = async (query) => {
             throw new Error("Failed to fetch books from Google Books API");
         }
         const data = await response.json();
-        return data.items || []; // Return the books or an empty array
+        return data.items || [];
     } catch (error) {
         console.error("Error fetching books:", error);
         throw error;
